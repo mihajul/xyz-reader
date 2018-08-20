@@ -10,7 +10,9 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="@dimen/app_bar_elevation"
+        >
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
@@ -35,7 +37,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:elevation="@dimen/app_bar_elevation"
+                />
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
@@ -117,7 +121,9 @@
         android:layout_gravity="end|bottom"
         android:src="@drawable/ic_share"
         android:layout_margin="16dp"
+        android:elevation="@dimen/fab_elevation"
         android:contentDescription="@string/action_share"
+        android:translationZ="@dimen/fab_press_translation_z"
         />
 
 

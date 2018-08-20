@@ -5,7 +5,7 @@
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
     <item name="detail_title_line_spacing_multiplier" format="float" type="fraction">0.9</item>
 
-    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
 
     <dimen name="fab_margin">16dp</dimen>
@@ -19,4 +19,5 @@
     <dimen name="list_item_card_margin">4dp</dimen>
     <dimen name="article_detail_toolbar_overlap">64dp</dimen>
     <dimen name="article_card_elevation">2dp</dimen>
+    <dimen name="app_bar_elevation">4dp</dimen>
 </resources>
